@@ -41,9 +41,6 @@ bool isSafe(int board[N][N], int row, int col)
 
 	return true;
 }
-
-/* A recursive utility function to solve N
-Queen problem */
 bool solveNQUtil(int board[N][N], int col)
 {
 	/* base case: If all queens are placed
